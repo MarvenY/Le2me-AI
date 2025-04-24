@@ -101,7 +101,7 @@ Images are loaded with `CachedNetworkImage` for smooth scrolling & caching.
 
 ## 📜 License
 
-MIT
+No Copyright or License aquired for this project ( unless a private dataset is used )
 
 ---
 
@@ -109,4 +109,5 @@ MIT
 
 * Google Programmable Search & Firebase  
 * Hugging Face (Transformers, PEFT)  
-* All original recipe creators whose content powers Le2me
+* Contributors : MarvenY and Andthedrew
+  
