@@ -14,9 +14,8 @@
 | `calories_populating.py`       | Calls OpenAI to estimate calories/macros and patches Firestore; logs to `calorie_updates.log` |
 | `calorie_updates.log`          | Rolling logfile from the nutrition script |
 | `calories.env` †               | You'll have to add that yourself according to the API keys provided by your service account. (keep the naming conventions as : FIREBASE_CRED= , GOOGLE_CX= , GOOGLE_API_KEY= and OPENAI_API_KEY=) |
-| `fine_tune_flan_recipes.py`    | Builds FAISS index & generates instruction‑response pairs for SFT |
+| `fine_tune_flan_recipes.py`    | Builds FAISS index & generates instruction‑response pairs for SFT + Checkpoints & tokenizer |
 | `AI_Train.py`                  | **Entrypoint** – orchestrates RAG + LoRA fine‑tuning of `flan‑t5‑base` |
-| `models/` *generated*          | Checkpoints & tokenizer |
 | `README.md`                    | You’re reading it |
 
 ```text
