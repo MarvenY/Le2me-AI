@@ -18,7 +18,7 @@ from firebase_admin import credentials, firestore
 from openai import OpenAI, RateLimitError, APIError
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────
-SERVICE_KEY   = Path(r"C:\AI\le2me-31b92-firebase-adminsdk-c9rvb-1bc4a5b3c3.json")
+SERVICE_KEY   = Path(r"PATH TO FIREBASE JSON CONFIG FILE")
 COLLECTION    = "default recipe"
 MODEL         = "gpt-4o-mini"          # or gpt-3.5-turbo
 TEMPERATURE   = 0
