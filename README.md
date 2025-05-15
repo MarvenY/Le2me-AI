@@ -26,7 +26,7 @@ LE2ME‑AI/
 ├── calories.env            # ← not committed
 ├── fine_tune_flan_recipes.py
 ├── image_fetch.py
-├── models/                 # saved adapters
+├── models/ (DIR once created)                 # saved adapters
 └── README.md
 ```
 
